@@ -1,4 +1,5 @@
-package main.java.com.introtooop.exercise003;
+package main.java.com.introtooop.exercise005;
+
 
 public class Pigeon extends Bird {
     //The Pigeon constructor calls the base class Bird constructor
@@ -7,11 +8,12 @@ public class Pigeon extends Bird {
         super(name, color);
     }
 
-    public void eatPizza() {
-        System.out.println("Delicious pizza!");
+    @Override
+    public void speak() {
+        System.out.println("Yo! I'm " + name + " and I'm a " + color + " pigeon.");
     }
 
-    public void sleep() {
-        System.out.println("I'm a sleeping pigeon");
+    public void eatPizza() {
+        System.out.println("Delicious pizza!");
     }
 }

@@ -1,4 +1,5 @@
-package main.java.com.introtooop.exercise004;
+package main.java.com.introtooop.exercise005;
+
 
 public class Penguin extends Bird {
 
